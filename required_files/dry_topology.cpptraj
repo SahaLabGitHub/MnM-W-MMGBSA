@@ -1,0 +1,5 @@
+parm amber_solvatedtopology.prmtop
+parmstrip :Cl-,:Na+,:WAT,:SOL
+parmbox nobox
+parmwrite out complex_dry.prmtop
+

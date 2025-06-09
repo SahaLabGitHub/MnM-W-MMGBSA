@@ -1,0 +1,8 @@
+parm amber_solvatedtopology.prmtop
+trajin md4ns_whole_nojump_nopbc.xtc 401 500 1
+center @CA,C,N mass origin
+image origin center
+autoimage
+trajout centered_trajectory_amber.mdcrd nobox 
+run
+
